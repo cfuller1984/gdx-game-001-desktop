@@ -9,9 +9,9 @@ public class Main {
 		cfg.title = "gdx-game-001";
 		cfg.useGL20 = true;
 		cfg.x = 0;
-		cfg.y = 1080 - 360 - 74;
-		cfg.width = 640;
-		cfg.height = 360;
+		cfg.y = 1080 - 270 - 74;
+		cfg.width = 480;
+		cfg.height = 270;
 		cfg.resizable = false;
 		new LwjglApplication(new GdxGame001(), cfg);
 	}
